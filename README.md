@@ -1,2 +1,2 @@
-# echidna-programming-language
-echidna programming language
+# iajzenszmi-programming-language
+iajzenszmi programming language
