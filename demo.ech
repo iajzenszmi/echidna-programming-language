@@ -1,0 +1,17 @@
+def inc(x){ return x+1; }
+def square(x){ return x*x; }
+
+let a = 5 |> inc |> square;  # 36
+print("a =", a);
+
+var i = 0; var s = 0;
+while(i < 5){ s = s + i; i = i + 1; }
+print("sum", s);
+
+def makeAdder(n){
+  def add(x){ return x + n; }
+  return add;
+}
+let add10 = makeAdder(10);
+print(3 |> add10);           # 13
+

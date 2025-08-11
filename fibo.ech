@@ -1,0 +1,14 @@
+fn main() {
+  let n: int = 8;
+  let a: int = 0;
+  let b: int = 1;
+  let i: int = 0;
+
+  while (i < n) {
+    print(a);
+    let next: int = a + b;
+    a = b;
+    b = next;
+    i = i + 1;
+  }
+}
